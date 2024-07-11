@@ -3,16 +3,15 @@
   transform: translateX(-50%);
   background: radial-gradient(
       at 71% 77%,
-      var(--color-gradient-1) 0,
+      #9c00ff 0,
       transparent 21%
     ),
-    radial-gradient(at 36% 47%, var(--color-gradient-3) 0, transparent 50%),
-    radial-gradient(at 54% 29%, var(--color-gradient-3) 0, transparent 28%),
-    radial-gradient(at 45% 51%, var(--color-gradient-1) 0, transparent 53%),
-    radial-gradient(at 73% 44%, var(--color-gradient-2) 0, transparent 54%),
-    radial-gradient(at 24% 7%, var(--color-gradient-2) 0, transparent 40%),
-    radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%);
-  /* mix-blend-mode: normal; */
+    radial-gradient(at 36% 47%, #ff00f5 0, transparent 50%),
+    radial-gradient(at 54% 29%, #ff00f5 0, transparent 28%),
+    radial-gradient(at 45% 51%, #9c00ff 0, transparent 53%),
+    radial-gradient(at 73% 44%, #e100ff 0, transparent 54%),
+    radial-gradient(at 24% 7%, #e100ff 0, transparent 40%),
+    radial-gradient(at 76% 46%, #9c00ff 0, transparent 50%);
   max-height: 800px;
   height: 80vh;
   max-width: 1400px;
@@ -27,16 +26,15 @@
   transform: translateX(-50%) rotate(190deg);
   background: radial-gradient(
       at 83% 25%,
-      var(--color-gradient-1) 0,
+      #9c00ff 0,
       transparent 21%
     ),
-    radial-gradient(at 36% 47%, var(--color-gradient-3) 0, transparent 50%),
-    radial-gradient(at 79% 45%, var(--color-gradient-3) 0, transparent 28%),
-    radial-gradient(at 66% 38%, var(--color-gradient-1) 0, transparent 53%),
-    radial-gradient(at 89% 13%, var(--color-gradient-2) 0, transparent 54%),
-    radial-gradient(at 24% 7%, var(--color-gradient-2) 0, transparent 40%),
-    radial-gradient(at 76% 46%, var(--color-gradient-1) 0, transparent 50%);
-  /* mix-blend-mode: normal; */
+    radial-gradient(at 36% 47%, #ff00f5 0, transparent 50%),
+    radial-gradient(at 79% 45%, #ff00f5 0, transparent 28%),
+    radial-gradient(at 66% 38%, #9c00ff 0, transparent 53%),
+    radial-gradient(at 89% 13%, #e100ff 0, transparent 54%),
+    radial-gradient(at 24% 7%, #e100ff 0, transparent 40%),
+    radial-gradient(at 76% 46%, #9c00ff 0, transparent 50%);
   height: 600px;
   max-width: 900px;
   width: 55vw;

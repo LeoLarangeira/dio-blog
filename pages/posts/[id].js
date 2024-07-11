@@ -44,6 +44,15 @@ export default function PostPage({
             {posts.body}
           </article>
         </main>
+        <Link
+          href="/"
+          as="/"
+        >
+          <a className="flex items-center justify-center mt-12">
+            <ArrowIcon className="mr-2" />
+            <span>Retornar para página inicial.</span>
+          </a>
+        </Link>
       </article>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
@@ -54,6 +63,7 @@ export default function PostPage({
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
       />
+
     </Layout>
   );
 }
@@ -70,4 +80,3 @@ export const getServerSideProps = async ({ params }) => {
     },
   };
 };
-
